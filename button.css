@@ -1,0 +1,34 @@
+#search-btn {
+    margin-top: 10px;
+    border: none;
+    background: var(--text-main);
+    color: var(--bg-page);
+    font-size: 0.9rem;
+    font-weight: 300;
+    padding: 7px 12px;
+    border-radius: 9px;
+    cursor: pointer;
+    transition: opacity 0.2s, transform 0.1s;
+}
+
+#search-btn:hover {
+    opacity: 0.85;
+}
+
+#search-btn:active {
+    transform: scale(0.97);
+}
+
+#themeToggle {
+    display: flex;
+    justify-content: flex-ends;
+    border: none;
+    background: var(--text-main);
+    color: var(--bg-page);
+    font-size: 0.9rem;
+    font-weight: 300;
+    padding: 7px 12px;
+    border-radius: 9px;
+    cursor: pointer;
+    transition: opacity 0.2s, transform 0,1s;
+}

@@ -1,0 +1,62 @@
+#weather-result {
+    max-width: 960px;
+    margin: 30px auto 0;
+}
+
+/* Текущая погода */
+.current-weather {
+    text-align: left;
+    margin-bottom: 35px;
+    padding-left: 5px;
+}
+
+.city-name {
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-bottom: 4px;
+}
+
+.city-name span {
+    color: var(--text-muted);
+    font-weight: 300;
+}
+
+.current-temp {
+    font-size: 3.5rem;
+    font-weight: 400;
+    line-height: 1.1;
+    letter-spacing: -2px;
+    margin: 6px 0;
+}
+
+.current-meta {
+    font-size: 0.95rem;
+    color: var(--text-muted);
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    background: var(--surface);
+    border-radius: 12px;
+    padding: 4px 4px 4px 14px;
+    box-shadow: var(--shadow);
+    width: 100%;
+    max-width: 380px;
+    transition: box-shadow 0.2s;
+}
+
+
+/* текстовое поле*/
+#city-input {
+    border: none;
+    outline: none;
+    background: transparent;
+    color: var(--text-main);
+    font-size: 0.95rem;
+    width: 100%;
+}
+
+#city-input::placeholder {
+    color: var(--text-muted);
+}
